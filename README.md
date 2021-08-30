@@ -4,7 +4,7 @@
 
 ### pip algosu yazsak?
 - https://www.toptal.com/python/computational-geometry-in-python-from-theory-to-implementation
-- http://www.plumislandmedia.net/mysql/haversine-mysql-nearest-loc/ (kafa açıcı)
+- http://www.plumislandmedia.net/mysql/haversine-mysql-nearest-loc/ (kafa açıcı) (pdf olarak da ekledim)
 ### MySQL'de pip için çözüm
 - https://dev.mysql.com/doc/refman/8.0/en/spatial-types.html
 ### Diğer Kaynaklar
