@@ -24,7 +24,7 @@ mapshaper osm_turkey.geojson -simplify dp 20% keep-shapes -o format=geojson prec
 - Import işlemi için şu repoya göz atabilirsiniz. https://github.com/syntaxbender/Overpass-OSM-MySQL
 
 ## Teşekkür
-- İzzet Kılıç'a araştırma sürecimi hızlandırmasındaki katkılarından dolayı teşekkürler ediyorum. (https://github.com/izzetkalic/geojsons-of-turkey)
+- İzzet Kılıç'a araştırma sürecimi hızlandırmasındaki katkılarından dolayı teşekkür ediyorum. (https://github.com/izzetkalic/geojsons-of-turkey)
 
 ## Kaynaklar ve notlar
 
