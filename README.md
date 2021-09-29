@@ -20,7 +20,7 @@ mapshaper osm_turkey.geojson -simplify dp 20% keep-shapes -o format=geojson prec
 
 ```
 - Terminalde benzer parametreler içeren, %80 kayıplı veri, 3 ondalıklı basamağa sahip koordinatlar oluşturmayı ifade eden komut işimizi bir hayli görecektir.(detaylı bilgi için mapshaper dökümanına göz atabilirsiniz.)
-- Bu işlemden sonra geojson verisini veritabanına import etmek kalıyor.
+- Bu işlem sonrasında geojson verisini veritabanına import etmek kalıyor.
 - Import işlemi için şu repoya göz atabilirsiniz. https://github.com/syntaxbender/Overpass-OSM-MySQL
 
 ## Dipnot
