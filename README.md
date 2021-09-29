@@ -14,7 +14,7 @@
 out geom;
 ```
 - Overpass turbo ile osmtogeojson kütüphanesi arkaplanda tarayıcı tabanlı olarak çalışıp geojson formatında aldığımız çıktıyı veritabanına import etmeliyiz.
-- Fakat bu işlem öncesinde veritabanı yükünü hafifletmek amacıyla geojson minifier işlevini sağlayan bir kütüphane ile veriyi minify etmek yararlı olabilir. bunun işlem için mapshaper kullanabiliriz.
+- Fakat bu işlem öncesinde veritabanı yükünü hafifletmek amacıyla geojson minifier işlevini sağlayan bir kütüphane ile veriyi minify etmek yararlı olabilir. bu işlem için mapshaper kullanabiliriz.
 ```
 mapshaper osm_turkey.geojson -simplify dp 20% keep-shapes -o format=geojson precision=0.001 turkey.geojson
 
