@@ -1,5 +1,5 @@
 # Reverse Geocoding
-- epsg4623 koordinat sisteminde gelen koordinat noktalarına göre türkiye sınırları içerisinde il ilçe bölge bilgisi döndürür.
+- epsg4623 koordinat sisteminde gelen koordinat noktalarına göre türkiye sınırları içerisinde *il ilçe bölge* bilgisi döndürür.
 - veriler osm'den alınmış ve işlenmiştir.
 - phpmyadmin export dosyası olan sql dosyası import edilmelidir.
 
@@ -23,6 +23,10 @@ mapshaper osm_turkey.geojson -simplify dp 20% keep-shapes -o format=geojson prec
 - Bu işlemden sonra geojson verisini veritabanına import etmek kalıyor.
 - Import işlemi için şu repoya göz atabilirsiniz. https://github.com/syntaxbender/Overpass-OSM-MySQL
 
+## Dipnot
+- OSM'den aldığımız data'da bazı ilçelerin relationları sorunluydu.
+- Hatalı ilçelerin ilişkileri export ettiğim sql dosyasında düzeltilmiş durumdadır.
+- Ayrıca Türkiye sınırları dışından da birkaç il ilçe de mevcuttu onlar da export edilen sql dosyasında temizlenmiş durumdadır.
 ## Teşekkür
 - İzzet Kılıç'a araştırma sürecimi hızlandırmasındaki katkılarından dolayı teşekkür ediyorum. (https://github.com/izzetkalic/geojsons-of-turkey)
 
