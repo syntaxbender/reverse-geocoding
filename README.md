@@ -46,7 +46,7 @@ DELIMITER ;
 ## Dipnot
 - OSM'den aldığımız data'da bazı ilçelerin relationları sorunluydu.
 - Hatalı ilçelerin ilişkileri export ettiğim sql dosyasında düzeltilmiş durumdadır.
-- Ayrıca Türkiye sınırları dışından da birkaç il ilçe de mevcuttu onlar da export edilen sql dosyasında temizlenmiş durumdadır.
+- Ayrıca Türkiye sınırları dışından da bazı veriler mevcuttu onlar da export edilen sql dosyasında temizlenmiş durumdadır.
 ## Teşekkür
 - İzzet Kılıç'a araştırma sürecimi hızlandırmasındaki katkılarından dolayı teşekkür ediyorum. (https://github.com/izzetkalic/geojsons-of-turkey)
 
