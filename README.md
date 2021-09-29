@@ -2,6 +2,7 @@
 - epsg4623 koordinat sisteminde gelen koordinat noktalarına göre türkiye sınırları içerisinde *il ilçe bölge* bilgisi döndürür.
 - veriler osm'den alınmış ve işlenmiştir.
 - phpmyadmin export dosyası olan sql dosyası import edilmelidir.
+![asd](./assets/img/ss.png)
 
 ## Verileri nasıl oluşturdum?
 - OpenStreetMap verilerini kısmı olarak belirli sorgular(Overpass Query) çerçevesinde Overpass API ile alabilmekteyiz.
