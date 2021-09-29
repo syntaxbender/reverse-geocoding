@@ -6,17 +6,6 @@
 *
 * Dont forget to check is defined reverseGeocoding as stored procedure on db
 *
-* delimiter //
-* CREATE PROCEDURE reverseGeocoding (IN point CHAR(255))
-* BEGIN
-*	set @loc_point = ST_GeomFromText(point,4326);
-*	set @region_id=(select id FROM regions where ST_INTERSECTS(geometry, @loc_point) limit 1);
-*	set @city_id=(select id FROM cities where ST_INTERSECTS(geometry, @loc_point) and region_id=@region_id limit 1);
-*	set @county_id=(select id from counties where ST_INTERSECTS(geometry, @loc_point) and city_id=@city_id limit 1);
-*	select @county_id as county,@city_id as city,@region_id as region;
-* END//
-* delimiter ;
-*
 */
 
 class GeoCoder{
